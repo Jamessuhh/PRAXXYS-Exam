@@ -20,7 +20,7 @@ class ProductFactory extends Factory
             'name' => fake()->word(),
             'category' => fake()->randomElement(['Electronics', 'Clothing', 'Food', 'Books', 'Sports']),
             'description' => fake()->paragraph(),
-            'date_time' => fake()->dateTimeBetween('-1 year', 'now'),
+            'datetime' => fake()->dateTimeBetween('-1 year', 'now'),
         ];
     }
 }
